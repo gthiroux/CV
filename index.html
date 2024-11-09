@@ -8,17 +8,16 @@
 </head>
 <body>
     <header>
-        <img src="assets/img/fond_header_option1.webp" alt="photo de fond ">
-        <img src="#" alt="photo de profil">
         <div>
+            <img src="assets/img/Photo d'identité.pdf" alt="photo de profil">
             <h1>THIROUX Garance </h1>
             <h3>Etudiante en première année de Bachelor Numérique à La Manu: Ecole Supérieur des Métiers du Numérique </h3>
         </div>
         <nav>
             <ul>
                 <li><a href="index.html">Accueil</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#profil">Profil et Compétences</a></li>
-                <li><a href="assets/html/portefolio.html">Portefolio</a></li>
                 <li><a href="#experience">Expérience</a></li>
                 <li><a href="#formation">Formation</a></li>
                 <li><a href="#contact_footer">Contact</a></li>
@@ -26,53 +25,64 @@
         </nav>
     </header>
     <main>
-        <div id="portefolio">
-            <h2>Portefolio</h2>
-            <div class="card">
-                <img src="assets/img/Card_portefolio/card_glacier.png" alt="photo du site du glacier">
-                <p class="name_site">TD Glacier.</p>
-                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quia laborum sunt obcaecati repellendus, magni maiores vitae doloribus voluptatibus repudiandae quis dolores recusandae porro officia nostrum maxime. Dignissimos, a doloribus?</p>
-                <a href="#">En voir plus</a>
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <div id="card">
+                <div>
+                    <img src="assets/img/Card_portefolio/card_glacier.png" alt="photo du site du glacier">
+                    <p class="name_site">TD Glacier</p>
+                    <p class="description">Objectif: Postionnement des différents éléments de la page web.
+                        Entrainement sur les flex, sur l'univers des glaciers.
+                    </p>
+                    <a href="#">En voir plus</a>
+                </div>
+                <div>
+                    <img src="assets/img/Card_portefolio/card_onepage.png" alt="photo du site du onepage">
+                    <p class="name_site">TD Onepage</p>
+                    <p class="description">Objectif: Créer un site complet  du point de vue HTML.
+                        Entrainement au HTML, sur l'univers de Star Wars.
+                    </p>
+                    <a href="#">En voir plus</a>
+                </div>
+                <div>
+                    <img src="assets/img/Card_portefolio/card_typography.png" alt="photo du site du TD typographie">
+                    <p class="name_site">TD Typographie</p>
+                    <p class="description">Objectif: Changer le style des typographies.
+                        Entrainement en CSS, sur l'univers de Harry Potter.
+                    </p>
+                    <a href="#">En voir plus</a>
+                </div>
             </div>
-            <div class="card">
-                <img src="assets/img/Card_portefolio/card_onepage.png" alt="photo du site du onepage">
-                <p class="name_site">TD onepage.</p>
-                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quia laborum sunt obcaecati repellendus, magni maiores vitae doloribus voluptatibus repudiandae quis dolores recusandae porro officia nostrum maxime. Dignissimos, a doloribus?</p>
-                <a href="#">En voir plus</a>
-            </div>
-            <div class="card">
-                <img src="assets/img/Card_portefolio/card_typography.png" alt="photo du site du TD typographie">
-                <p class="name_site">TD typographie.</p>
-                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quia laborum sunt obcaecati repellendus, magni maiores vitae doloribus voluptatibus repudiandae quis dolores recusandae porro officia nostrum maxime. Dignissimos, a doloribus?</p>
-                <a href="#">En voir plus</a>
-            </div>
-        
-        </div>
+        </section>
         <div id="profil">
             <h2>Présentation</h2>
                 <h3>Profil</h3>
+                <p><img src="assets/img/logo/logo_adress.svg" alt="logo adresse">1003 Avenue de la Libération <br>60150 Longueil-Annel</p>
                 <p id="birthday"><img src="assets/img/logo/logo_birthday.svg" alt="photo calendrier anniversaire"> 18 décembre 2004</p>
                 <p id="car"><img src="assets/img/logo/logo_car.svg" alt="logo voiture"> Permis B + véhicule</p>
-                <p id="caracter"> Caractère : Calme, Observatrice, Attentive, Autonome, Rigoureuse, Curieuse. </p>
                 <p id="diplome"> Diplôme de premier secours (PSCI)</p>
-                <p id="association">Association : Projet Carpe Diem (Interactions intergénérationnelles avec les résidents d'une maison de retraite de Compiègne ne recevant peu de visites)</p>
+                <p id="caracter"> <b><u>Caractère :</u></b> Calme, Observatrice, Attentive, Autonome, Rigoureuse, Curieuse. </p>
+                <p id="association"><b><u>Association :</u></b> Projet Carpe Diem (Interactions intergénérationnelles avec les résidents d'une maison de retraite de Compiègne ne recevant peu de visites)</p>
                 <h3>Intérêts</h3>
                     <h4>Loisirs</h4>
-                    <p>Peinture:acrylique sur toile</p>
-                    <p>Musique:pop,jazz,variétés française, K-pop,C-pop...</p>
+                    <p><b><u>Peinture : </u></b> acrylique sur toile</p>
+                    <p><b><u>Musique : </u></b> pop, jazz, variétés française, K-pop, C-pop...</p>
                 <h3>Langues</h3>
                     <h4>Linguistique</h4>
-                    <p><img src="assets/img/logo/logo_anglais.svg" alt="drapeau anglais"></p>
+                    <p id="french"><img src="assets/img/logo/logo_fr.svg" alt="drapeau francais"></p>
+                    <label for="french">Français: </label>
+                    <progress id="french" max="100" value="95">95%</progress>
+                    <p id="english"><img src="assets/img/logo/logo_anglais.svg" alt="drapeau anglais"></p>
                     <label for="english">Anglais: </label>
                     <progress id="english" max="100" value="80">80%</progress>
-                    <p><img src="assets/img/logo/logo_espagnol.svg" alt="drapeau espagnol"></p>
-                      <label for="spanish">Espagnol: </label>
-                    <progress id="english" max="100" value="50">50%</progress>
-                    <p><img src="assets/img/logo/logo_chinois.svg" alt="drapeau chinois"></p>
-                      <label for="chinese">Chinois: </label>
+                    <p id="spanish"><img src="assets/img/logo/logo_espagnol.svg" alt="drapeau espagnol"></p>
+                    <label for="spanish">Espagnol: </label>
+                    <progress id="spanish" max="100" value="50">50%</progress>
+                    <p id="chinese"><img src="assets/img/logo/logo_chinois.svg" alt="drapeau chinois"></p>
+                    <label for="chinese">Chinois: </label>
                     <progress id="chinese" max="100" value="25">25%</progress>
-                    <p><img src="assets/img/logo/logo_coreen.svg" alt="drapeau logo_coreen"></p>
-                      <label for="korean">Coréen: </label>
+                    <p id="korean"><img src="assets/img/logo/logo_coreen.svg" alt="drapeau coreen"></p>
+                    <label for="korean">Coréen: </label>
                     <progress id="korean" max="100" value="25">25%</progress>
                     
         </div>

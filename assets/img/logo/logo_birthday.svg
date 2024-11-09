@@ -1,47 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 595.28 595.28">
+<svg id="Calque_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 56.7 56.7">
+  <!-- Generator: Adobe Illustrator 29.0.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 192)  -->
   <defs>
     <style>
-      .cls-1 {
+      .st0 {
         fill: #050000;
       }
 
-      .cls-2 {
+      .st1 {
         fill: #fcfcfc;
       }
 
-      .cls-3 {
+      .st2 {
+        isolation: isolate;
+      }
+
+      .st3 {
         fill: #f8f7f7;
       }
 
-      .cls-4 {
+      .st4 {
         display: none;
       }
 
-      .cls-5 {
+      .st5 {
         fill: #f7f7f7;
       }
     </style>
   </defs>
-  <!-- Generator: Adobe Illustrator 28.7.2, SVG Export Plug-In . SVG Version: 1.2.0 Build 154)  -->
-  <g>
-    <g id="Calque_1" class="cls-4">
-      <image width="66" height="68" transform="translate(287 286.28) scale(.33)" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEA3ADcAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCABEAEIDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9Tc14H+2h+08n7JfwcTxiNEbxBe3Gow6XaWfneVH5rrJJvdyGKqFicjCkk7RxnI+Sv+Ct3x++IvwZ8Z/Du28EeMdV8L299p93Jcx6bOYxKyyRgFsegP6184Q+Kvih+1p+wz4vtZ7/AFz4l+KPDvjiw1CazUtd3kFg9nPErpGoLMvmu3CgkAMSMKSAD9j/AIOfEJfi18KfCHjRbI6b/wAJBpNtqhsvO83yDNGshj34G7buxnAzjoM4rsq/Ez9q/wCPXxc/Z/0/4H+EPD3i3XvBZtvhlozahpFvKYGiuy06uJUPKyBVQFSARtGRXgf/AA3P8fv+is+Jv/Aw/wCFAH9F/PpSHIGcH+Vfzo/8Nz/H7/orPib/AMDD/hXoX7O/7aHxp1/9oD4ZaZrvxS8QXOiXnifTIL+G6viIpLdruISq54+UoWBzxgmgD9QP2df25F+On7THxL+Ec/hRtFk8KSXptNRW8Ewuo7a7W1cyJsXYzNIjgDcMFgT8oJ+rM1+PPhLwn8QPgd8Zv2w/iheaVq/gvS4dH1+DS/EV1A1rHJeXOpxNZ/Z2bHmbymQUBA3JkjemfP8A9jn9rv4zeOP2ofhxoOvfEjxBquj32rRxXNjdXRaOZCGO1hjkf4CgD9xdw9aKXB7uc0UAfld/wV60C38V/Hz4EaJdvJHa6l5llM0LBXCSXUKMVJBAOCcZBryvWof2Yv2Uvi54k0DSvGv7Qfh3xRpM0ml3uoeG77TYBKFYFkEiqjOhKq2GABKg9RXs/wDwVT/5Og/Zy/6+1/8AS23r4Q/bo5/a/wDi1/2H7j+dAHpviTxB+x14y1q71jXvEH7Qmt6teMJLm+1CbSp55mAABd2BZiAMZJ6AVmfZ/wBiL/n7+O//AHzo/wD8TXyjtPXFdN8Lo4JfiZ4SjufD9x4stn1a0WXQLRmE2pqZkBtUKgkNIPkGBnLDFAH0XNp/7E1vIUluPjzG46qyaOCM+22mfZ/2Iu138d8/7uj/APxNV/8Ago945tviX+0QfE1v8PPE3w5e/wBItfOtPF1i1lfX7xl4xdGEkhV2okI2kg/Z89SQPljB7UAfcni74yfsx+P/AA/aaF4n+If7TPiLRbR0kt9O1TUtOuIImUMqssbkqGVWYA9g2OlanhX4K+D/AIG/8FBPgFp3ge81y98P65aab4ghbxBJC90v2kTHa3lIqj5VTgA855PFfBG0+lfpNrn/ACf7+yd/2Jnhz/0TNQB+vlFJRQB+YP8AwVU/5Og/Zx/6+1/9LbevhH9ub/k8D4tZ/wCg/cfzr7u/4Kqf8nQ/s4jv9rX/ANLbevhL9ubI/bB+LHUf8VBcfzoA1vh3+xJ4n8d/D3R/Ges+OPh/8MtF1tpP7I/4TvXxpsmopGQrywoI3yoYgc4JyGxtZSfUfgj+x3ZfDb4zeAfF2pftDfAmfTtA1/T9VuYrTxsrTPFBcxyuqBoVBYqhwCQMkZIrsPjRN8B/EHgn4CeGPipH4g8Ka5J8MdFubDxxokhuYYYmNwPs9zZ4OUVkZw8SmQmQAkBa8rTVv2OPGL/8IsNF8feALS1wbTx3cXaX9xekgs4vbJcpGo5VPs4ySVLBQGoA+j/+ChHwk8L/ALWHxl0bxd4R+PfwZ07TbPQIdKkh1nxlFFMZUubmUkLEkg27ZlHUHIbjpn5ns/8Agnb4h16Y2Xhb4xfBrxtr8kcj2nh/w/4wE99fMqFzHCjRKpbCsfmYAYJJABNWIdV/Y48bSDw02jePvh3b2WDaeN5bpdQn1Hgs4vbNQyRHjYn2ccllZtoBFd38ANd/ZR8W/Hj4b6L4d8M+NvA2taX4j02TRPEl5fpe/wBuXC3EbrHqFuMrb7nQRqbfjMm5sBcUAfCt9a3Gn3U1pdQyW1zA7RSwzIUeNlOCrKfukEHI7Gv0d1z/AJP+/ZO/7Ezw5/6Jmr4n/aaA/wCGjviwqjJ/4S3VcfT7ZLX2zran/hvz9k444/4Qzw5/6KmoA/XvJ9aKSigD8wv+CqX/ACdF+zicZ/0tf/S23r5q/aG+AMHxZ/ah+MuoP8T/AIf+BmtfE9xb/Y/GGrSWU8owrb0VYXynOOccg19bf8FRfg18T/iF8VvhP4j+HPg6/wDFEnh+GW4d7WHfHFKs8Txh+RwSnQH8q8q1bxd+1prmo3Ooal+y54J1C/uZDJPdXfgyOSWVj1ZmaYkn3JoA4b9oz4F+Hfi9B8K00b49/B+2PhXwNpvhi8+3+JZF8y5t3nZ3j227ZjPmrgnB4OVHFeO/8MT2/wD0cL8Ef/CouP8A5Fr6P/tr9qf/AKNP8A/+ERF/8epf7Z/ao/6NO8A/+EPF/wDHqAPm/wD4Yntv+jhfgh/4VE//AMi12vwR/Zd0j4b/ABm8BeLdT/aA+DM2m6Dr9hqt1HZ+JpmmeKC4jldUDWygsVQgZIGe4r1v+2f2qP8Ao07wD/4Q8X/x6j+2f2qP+jTvAP8A4REX/wAeoA8M/aK/Z50zWPGnxL+IOnfGv4U6pY32p6jrdtpFj4hllv5o5JpJUiWPyApl2sFxuxnuRXu2tNn9vr9k/tnwb4cOP+2U3+NR/wBtftT/APRqHgEeh/4QiHj/AMi1N8Nvhx+0X8UP20PhZ8Q/iJ8LZvDdhoktrYPJp9h9ms7W0i8zYNnmNgAyEccdOKAP13opN3s3/fJooAcq+/Uc8Clx70UUAJ1pdtFFABt/zijbRRQAm3HNIx+ViODjPWiigBNif3BRRRQB/9k="/>
-    </g>
-    <g id="Calque_2">
-      <rect class="cls-1" x="288.32" y="289.22" width="19.03" height="17.34"/>
-      <path class="cls-5" d="M292.54,303.58h.68v-4.19c.14-.11.27-.22.41-.32h8.33l.4.32v4.19h.72c.11-.24,0-2.13,0-4.23,0-.72.18-.97-1.02-.99-1.66-.03-3.42-.11-3.65,0l.06-1.89h-1.34l-.02,1.87-3.54.06c-.96,0-.96.29-.96.92-.03,1.42-.05,2.84-.08,4.27Z"/>
-      <path class="cls-3" d="M293.07,300.02c.38-.18.74.5,1.08.48.5,0,1.19-.57,1.74-.36.41.1.77.51,1.24.45.49-.02.95-.6,1.4-.51.39,0,.85.51,1.24.45.26,0,.5-.22.8-.37.72-.43,1.94.39,2.02.92,0,.12-.12.22-.29.18-.26-.06-.63-.36-.95-.4-.53-.14-1.07.53-1.59.38-.42-.1-.8-.51-1.29-.41-.39.03-.76.37-1.1.45-.41.15-.94-.2-1.36-.4-.66-.3-1,.53-1.71.42-.58-.13-1.61-.56-1.32-1.19l.07-.08Z"/>
-      <ellipse class="cls-3" cx="297.77" cy="294.96" rx=".54" ry=".82"/>
-      <rect class="cls-3" x="289.41" y="292.49" width=".57" height="13.05"/>
-      <rect class="cls-3" x="289.41" y="292.49" width="16.88" height=".57"/>
-      <rect class="cls-3" x="305.67" y="292.57" width=".62" height="12.97"/>
-      <rect class="cls-3" x="290.73" y="303.58" width="14.25" height=".72"/>
-      <rect class="cls-3" x="289.41" y="304.93" width="16.88" height=".61"/>
-      <rect class="cls-2" x="290.73" y="287.62" width="2.49" height="4.21" rx="1.25" ry="1.25"/>
-      <rect class="cls-2" x="302.42" y="287.62" width="2.49" height="4.21" rx="1.25" ry="1.25"/>
-      <rect x="291.27" y="287.44" width="1.28" height="3.57" rx=".64" ry=".64"/>
-      <rect x="303.03" y="287.44" width="1.28" height="3.57" rx=".64" ry=".64"/>
-    </g>
+  <g id="Calque_11" data-name="Calque_1" class="st4">
+    <image class="st2" width="66" height="68" transform="translate(17.7 17) scale(.3)" xlink:href="logo_birthday-1.png"/>
+  </g>
+  <g id="Calque_2">
+    <rect class="st0" x="19" y="19.9" width="19" height="17.3"/>
+    <path class="st5" d="M23.2,34.3h.7v-4.2c.1-.1.3-.2.4-.3h8.3l.4.3v4.2h.7c.1-.2,0-2.1,0-4.2s.2-1-1-1c-1.7,0-3.4-.1-3.6,0v-1.9c0,0-1.3,0-1.3,0v1.9s-3.6,0-3.6,0c-1,0-1,.3-1,.9,0,1.4,0,2.8,0,4.3h0Z"/>
+    <path class="st3" d="M23.8,30.7c.4-.2.7.5,1.1.5.5,0,1.2-.6,1.7-.4.4.1.8.5,1.2.5.5,0,1-.6,1.4-.5.4,0,.9.5,1.2.5.3,0,.5-.2.8-.4.7-.4,1.9.4,2,.9,0,.1-.1.2-.3.2-.3,0-.6-.4-1-.4-.5-.1-1.1.5-1.6.4-.4-.1-.8-.5-1.3-.4-.4,0-.8.4-1.1.5-.4.1-.9-.2-1.4-.4-.7-.3-1,.5-1.7.4-.6-.1-1.6-.6-1.3-1.2h0c0,0,0,0,0,0Z"/>
+    <ellipse class="st3" cx="28.5" cy="25.7" rx=".5" ry=".8"/>
+    <rect class="st3" x="20.1" y="23.2" width=".6" height="13"/>
+    <rect class="st3" x="20.1" y="23.2" width="16.9" height=".6"/>
+    <rect class="st3" x="36.4" y="23.3" width=".6" height="13"/>
+    <rect class="st3" x="21.4" y="34.3" width="14.2" height=".7"/>
+    <rect class="st3" x="20.1" y="35.6" width="16.9" height=".6"/>
+    <path class="st1" d="M22.7,17.8h0c.7,0,1.2.6,1.2,1.4v1.9c0,.8-.6,1.4-1.2,1.4h0c-.7,0-1.2-.6-1.2-1.4v-1.9c0-.8.6-1.4,1.2-1.4Z"/>
+    <path class="st1" d="M34.4,17.8h0c.7,0,1.2.6,1.2,1.4v1.9c0,.8-.6,1.4-1.2,1.4h0c-.7,0-1.2-.6-1.2-1.4v-1.9c0-.8.6-1.4,1.2-1.4Z"/>
+    <path d="M22.6,18.1h0c.4,0,.6.3.6.6v2.3c0,.4-.3.6-.6.6h0c-.4,0-.6-.3-.6-.6v-2.3c0-.4.3-.6.6-.6Z"/>
+    <path d="M34.4,18.1h0c.4,0,.6.3.6.6v2.3c0,.4-.3.6-.6.6h0c-.4,0-.6-.3-.6-.6v-2.3c0-.4.3-.6.6-.6Z"/>
   </g>
 </svg>

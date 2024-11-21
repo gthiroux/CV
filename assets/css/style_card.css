@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=DynaPuff:wght@400..700&family=Lobster&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(#68c4f9, #c398ff);
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+/* Pour le header */
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1%;
+  font-family: "Lobster", serif;
+}
+header img {
+  border: 2px solid #000000;
+  width: 30%;
+}
+/* Pour la partie main, on utilisera un grid pour simplifier la podition des éléments. */
+main {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 50px 100px 1fr 50px;
+  grid-template-areas:
+    ". obj obj obj ."
+    "exp exp exp exp exp"
+    "img1 img1 . img2 img2"
+    "button1 button1 . button2 button2";
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+main img {
+  height: 50vh;
+  width: max-content;
+  border: 2px solid black;
+}
+main a {
+  padding: 10px;
+  margin: 1%;
+  font-family: "DynaPuff";
+  text-decoration: none;
+  border: 1px solid #ffffff;
+  border-radius: 5%;
+  color: white;
+  background-color: #68c4f9;
+}
+main h2 {
+  grid-area: obj;
+  font-family: "Lobster", serif;
+}
+main p {
+  grid-area: exp;
+  font-family: "Caveat", serif;
+  font-size: large;
+}
+main img:first-of-type {
+  grid-area: img1;
+}
+main a:first-of-type {
+  grid-area: button1;
+}
+main img:last-of-type {
+  grid-area: img2;
+}
+main a:last-of-type {
+  grid-area: button2;
+}
+/* Pour les contacts: */
+#contact_footer #mail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5%;
+  font-family: "DynaPuff", serif;
+  font-size: small;
+  width: 15%;
+  height: auto;
+}
+#contact_footer #tel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "DynaPuff", serif;
+  font-size: small;
+  width: 15%;
+  height: auto;
+}
+#social_media {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#contact_footer #social_media a {
+  width: 25%;
+  height: auto;
+}
+@media screen and (min-width: 600px) {
+  header {
+    justify-content: center;
+    font-size: xx-large;
+  }
+  header img {
+    margin: 2%;
+    width: 15vw;
+  }
+  main h2 {
+    font-size: xx-large;
+  }
+  main p {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: x-large;
+  }
+  main img:first-of-type {
+    margin-left: 20%;
+  }
+  #contact_footer #mail {
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 5%;
+    font-size: x-large;
+  }
+  #contact_footer #tel {
+    margin-left: 2%;
+    width: 5%;
+    font-size: x-large;
+  }
+  #social_media img {
+    width: 30%;
+  }
+}

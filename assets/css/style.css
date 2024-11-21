@@ -90,9 +90,12 @@ nav ul li {
   flex-wrap: wrap;
   justify-content: center;
   border-radius: 10%;
-  padding: 5%;
+  padding: 10%;
   margin: 5%;
   background-color: #ffffff;
+}
+#card img {
+  margin-left: 10%;
 }
 #card p:first-of-type {
   font-family: "DynaPuff", serif;
@@ -208,7 +211,7 @@ nav ul li {
 @media screen and (min-width: 600px) {
   h2 {
     font-size: xx-large;
-    margin:2%;
+    margin: 2%;
   }
   h3 {
     font-size: xx-large;
@@ -225,6 +228,7 @@ nav ul li {
       "pp presentation"
       "pp title";
     gap: 20px;
+    margin: 20px;
     font-size: larger;
   }
   header img {
@@ -256,6 +260,7 @@ nav ul li {
     padding: 0;
     gap: 0px;
     align-items: center;
+    list-style: none;
   }
   nav ul li {
     width: 50%;
@@ -306,45 +311,53 @@ nav ul li {
     margin-top: 5%;
     width: 100%;
   }
-  #card > div {
+  #card div {
     padding: 20px;
     margin: 0px;
     width: 20%;
   }
   #profil img {
     width: 10%;
+    padding: 10px;
   }
   #profil p {
     font-size: x-large;
     margin: 20px;
   }
-  #language div{
-   justify-content: flex-start;
+  #language div {
+    justify-content: flex-start;
   }
-  #experience li{
+  #language label {
+    margin: 1%;
+  }
+  #experience li {
     font-size: x-large;
   }
-  #experience p{
-    font-size:large;
+  #experience p {
+    font-size: large;
   }
-  #formation img{
+  #formation img {
     width: 10%;
   }
-  #formation p{
+  #formation p {
     font-size: x-large;
   }
-  #contact_footer #mail{
-    margin-top:2%;
-    margin-left:2%;
+  .explain {
+    font-family: xx-large;
+    font-weight: 500;
+  }
+  #contact_footer #mail {
+    margin-top: 2%;
+    margin-left: 2%;
     width: 5%;
     font-size: x-large;
   }
-  #contact_footer #tel{
-    margin-left:2%;
+  #contact_footer #tel {
+    margin-left: 2%;
     width: 5%;
     font-size: x-large;
   }
-  #social_media img{
+  #social_media img {
     width: 30%;
   }
 }

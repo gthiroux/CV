@@ -1,184 +1,350 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=DynaPuff:wght@400..700&family=Lobster&display=swap');
-@media screen and (max-width:376px){
-    body{
-        margin: 0%;
-        background:linear-gradient(rgb(104, 196, 249),rgb(195, 152, 255));
-    }
-    a {
-        color:white;
-        text-decoration: none;
-    }
-    h2{
-        display:flex;
-        justify-content: center;
-        font-family: "Lobster", serif;
-        font-size:x-large;
-        text-decoration: underline;        
-    }
-    h3{
-        display: flex;
-        padding-left: 5%;
-        font-family:"DynaPuff",serif ;
-    }
-    h4{
-        display:flex;
-        padding-left: 7%;
-        font-family:"Dancing Script",serif ;
-        font-size: larger;
-        font-weight: 500;
-    }
-    /* Pour le header: */
-    header{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        font-family: "Lobster", serif;
-    }
-    header img{
-        transform: rotate(-90deg);
-        align-items: flex-start;
-    }
-    header div {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        padding: 5%; 
-        font-size: small;
-    }
-    header nav ul{
-        display:flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-items:center;
-        background-color: rgb(0, 0, 0);   
-        list-style:none;
-    }
-    #portfolio{
-        display:flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    /* Pour les card du portefolio: */
-    #card > div{
-        display: flex;
-        flex-wrap:wrap;
-        justify-content: center;
-        border-radius: 10%;
-        padding:5%;
-        margin:5%;
-        background-color: white;
-
-    }
-    #card p:first-of-type{
-        font-family: "DynaPuff",serif;
-        font-size: x-large;
-    }
-    #card p:last-of-type{
-        font-family: "Caveat",serif;
-        font-size: large;
-    }
-    #card a{
-        font-family: "Dancing Script",serif;
-        color: rgb(132, 0, 255);
-    }
-    /* Pour le profil: */
-    #profil{
-        display: flex;
-        flex-direction: column;
-        padding: 5%;
-    }
-    #profil img{
-        display: flex;
-        width: 20%;
-        height: auto;
-    }
-    #profil p{
-        display:flex;
-        flex-direction: row;
-        flex-wrap: wrap; 
-        align-items: center;
-        font-family:"Caveat",serif ;
-        font-size: large;
-        font-weight: 300;
-    }
-    #language div {
-        display:flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        font-family:"Caveat",serif ;
-        font-size: larger;
-        font-weight: 300;
-    }
-    /* Pour les expériences: */
-    #experience {
-        display: flex;
-        flex-direction: column;
-        padding-left: 5%;
-    }
-    #experience p{
-        font-family: "DynaPuff",serif;
-        font-size: small;
-    }
-    #experience ul{
-        font-family: "Caveat",serif;
-        font-size: larger;
-        list-style:none;
-    }
-    /* Pour les formations: */
-    #formation{
-        display: flex;
-        flex-direction: column;
-        padding-left:5% ;
-    }
-    #formation p{
-        font-family: "DynaPuff",serif;
-        font-size: small;
-    }
-    
-    #formation .explain{
-        font-family: "Caveat",serif;
-        font-size: larger;
-    }
-    #formation img{
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 20%;
-        height: auto;
-    }
-    /* Pour les contacts: */
-    #contact_footer #mail{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        font-family: "DynaPuff",serif;
-        font-size: small;
-        width: 15%;
-        height: auto;
-    }
-    #contact_footer #tel{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        font-family: "DynaPuff",serif;
-        font-size: small;
-        width: 15%;
-        height: auto;
-    }
-    #social_media{
-        display:flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-    #contact_footer #social_media a{
-        width:25%;
-        height: auto;
-    }
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=DynaPuff:wght@400..700&family=Lobster&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(#68c4f9, #c398ff);
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+h1 {
+  font-family: "Lobster", serif;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Lobster", serif;
+  font-size: x-large;
+  margin: 1%;
+  text-decoration: underline;
+}
+h3 {
+  display: flex;
+  margin: 2%;
+  padding-left: 5%;
+  font-family: "DynaPuff", serif;
+}
+h4 {
+  display: flex;
+  padding-left: 7%;
+  font-family: "Dancing Script", serif;
+  font-size: larger;
+  font-weight: 500;
+}
+/* Pour le header: */
+header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-family: "Lobster", serif;
+}
+header img {
+  align-items: flex-start;
+  width: 25%;
+}
+header div {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5%;
+  font-size: small;
+}
+header h1 {
+  margin: 10px;
+}
+nav {
+  display: flex;
+  background-color: #000000;
+}
+/* Création d'un grid pour placer les pictogrammes de navigations et disparition des noms en mobile */
+nav ul {
+  display: grid;
+  grid-template-columns: repeat(6, 50px);
+  grid-template-rows: 50px;
+  grid-template-areas: "home portfolio profil exp formation contact";
+  margin: 15px;
+  margin-top: 30px;
+  padding: 0;
+  gap: 10px;
+}
+nav ul li p {
+  display: none;
+}
+nav ul li {
+  width: 50vw;
+}
+#card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+/* Pour les card du portefolio: */
+#card > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 10%;
+  padding: 5%;
+  margin: 5%;
+  background-color: #ffffff;
+}
+#card p:first-of-type {
+  font-family: "DynaPuff", serif;
+  font-size: x-large;
+}
+#card p:last-of-type {
+  font-family: "Caveat", serif;
+  font-size: large;
+}
+#card a {
+  font-family: "Dancing Script", serif;
+  color: #ffffff;
+  background-color: #c398ff;
+  border-radius: 10%;
+  padding: 2%;
+}
+/* Pour le profil: */
+#profil {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+}
+#profil img {
+  display: flex;
+  width: 20%;
+  height: auto;
+}
+#profil p {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  font-family: "Caveat", serif;
+  font-size: large;
+  font-weight: 300;
+}
+#language div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Caveat", serif;
+  font-size: larger;
+  font-weight: 300;
+}
+/* Pour les expériences: */
+#experience {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+}
+#experience p {
+  font-family: "DynaPuff", serif;
+  font-size: small;
+}
+#experience ul {
+  font-family: "Caveat", serif;
+  font-size: larger;
+  list-style: none;
+}
+/* Pour les formations: */
+#formation {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+}
+#formation p {
+  font-family: "DynaPuff", serif;
+  font-size: small;
 }
 
+#formation .explain {
+  font-family: "Caveat", serif;
+  font-size: larger;
+}
+#formation img {
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 20%;
+  height: auto;
+}
+/* Pour les contacts: */
+#contact_footer #mail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "DynaPuff", serif;
+  font-size: small;
+  width: 15%;
+  height: auto;
+}
+#contact_footer #tel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "DynaPuff", serif;
+  font-size: small;
+  width: 15%;
+  height: auto;
+}
+#social_media {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#contact_footer #social_media a {
+  width: 25%;
+  height: auto;
+}
 
-@media screen and(min-width:1025px) {
-    
+@media screen and (min-width: 600px) {
+  h2 {
+    font-size: xx-large;
+    margin:2%;
+  }
+  h3 {
+    font-size: xx-large;
+  }
+  h4 {
+    font-size: x-large;
+  }
+  header div {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: repeat(3, 50px);
+    grid-template-areas:
+      "pp name"
+      "pp presentation"
+      "pp title";
+    gap: 20px;
+    font-size: larger;
+  }
+  header img {
+    grid-area: pp;
+    justify-self: center;
+    align-self: center;
+    width: 100%;
+  }
+  header h1 {
+    grid-area: name;
+    justify-self: center;
+    font-size: xx-large;
+  }
+  header p {
+    grid-area: presentation;
+    justify-self: center;
+  }
+  header h3 {
+    grid-area: title;
+    justify-self: center;
+  }
+
+  /* Modif du grid pour placer les pictogrammes de navigations et apparition des noms en ordi */
+  nav ul {
+    grid-template-columns: repeat(3, 1fr 2fr);
+    grid-template-rows: 75px 75px;
+    grid-template-areas: "home home-name portfolio portfolio-name profil profil-name" "exp exp-name formation  formation-name contact contact-name";
+    margin: 0;
+    padding: 0;
+    gap: 0px;
+    align-items: center;
+  }
+  nav ul li {
+    width: 50%;
+  }
+  nav ul li p {
+    display: flex;
+  }
+  nav li:nth-of-type(1) {
+    grid-area: home;
+  }
+  nav li:nth-of-type(2) {
+    grid-area: portfolio;
+  }
+  nav li:nth-of-type(3) {
+    grid-area: profil;
+  }
+  nav li:nth-of-type(4) {
+    grid-area: exp;
+  }
+  nav li:nth-of-type(5) {
+    grid-area: formation;
+  }
+  nav li:nth-of-type(6) {
+    grid-area: contact;
+  }
+  nav li:nth-of-type(7) {
+    grid-area: home-name;
+  }
+  nav li:nth-of-type(8) {
+    grid-area: portfolio-name;
+  }
+  nav li:nth-of-type(9) {
+    grid-area: profil-name;
+  }
+  nav li:nth-of-type(10) {
+    grid-area: exp-name;
+  }
+  nav li:nth-of-type(11) {
+    grid-area: formation-name;
+  }
+  nav li:nth-of-type(12) {
+    grid-area: contact-name;
+  }
+  /* Pour les cards du portfolio */
+  #card {
+    flex-direction: row;
+    justify-content: none;
+    margin-top: 5%;
+    width: 100%;
+  }
+  #card > div {
+    padding: 20px;
+    margin: 0px;
+    width: 20%;
+  }
+  #profil img {
+    width: 10%;
+  }
+  #profil p {
+    font-size: x-large;
+    margin: 20px;
+  }
+  #language div{
+   justify-content: flex-start;
+  }
+  #experience li{
+    font-size: x-large;
+  }
+  #experience p{
+    font-size:large;
+  }
+  #formation img{
+    width: 10%;
+  }
+  #formation p{
+    font-size: x-large;
+  }
+  #contact_footer #mail{
+    margin-top:2%;
+    margin-left:2%;
+    width: 5%;
+    font-size: x-large;
+  }
+  #contact_footer #tel{
+    margin-left:2%;
+    width: 5%;
+    font-size: x-large;
+  }
+  #social_media img{
+    width: 30%;
+  }
 }
